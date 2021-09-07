@@ -1,5 +1,5 @@
 class apache::install { 
-  package { 'httpd':
-    ensure => 'present',
+  package { "${apache::install_name}":
+    ensure => present,
   }
 }
