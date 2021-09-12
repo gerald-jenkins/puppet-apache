@@ -7,7 +7,6 @@ describe 'apache::install' do
     context "on #{os}" do
       let(:facts) { os_facts }
 
-      it { is_expected.to compile }
     end
   end
 end
